@@ -1,9 +1,10 @@
 programa {
   funcao inicio() {
-    inteiro numero 
-    escreva("digite um número inteiro:")
-    leia(numero)
-    inteiro dobro = numero * 2
-    escreva("o dobro do numero é:", "dobro")
+    real f = 1.8 
+    real celsius, fahrenheit
+    escreva ("escreva em celsius: \n")
+    leia (celsius * fahrenheit) + 32 
+    escreva ("em fahrenheit:", fahrenheit )
   }
+
 }
