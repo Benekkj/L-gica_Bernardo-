@@ -1,9 +1,14 @@
 programa {
   funcao inicio() {
-    inteiro num
-    escreva("Digite um número inteiro: ")
-    leia(num)
-    inteiro dobro = num * 2
-    escreva("O dobro do número é: ", dobro)
+    real valor_real, contacao_dolares, valor_dolares
+    escreva ("Digite o valor em reais que deseja converter:R$ \n")
+    leia(valor_real)
+
+    escreva ("Digite a contacao em dolares: $ \n")
+    leia (contacao_dolares)
+
+    valor_dolares = valor_real / contacao_dolares
+
+    escreva ("\nValor convertido; $", valor_dolares, "\n")
   }
 }
